@@ -1,0 +1,146 @@
+.body{
+          background-image: url("../image/بک.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          font-family: sans-serif;
+}
+#login-box{
+          width: 320px;
+          height: 420px;
+          background: rgba(0, 0, 0, 0.5);
+          color: #fff;
+          top: 50%;
+          left: 50%;
+          position: absolute;
+          transform: translate(-50%,-50%);
+          box-sizing: border-box;
+          padding: 70px 30px;
+}
+h1{
+          margin: 0;
+          padding: 0 0 20px;
+          text-align: center;
+          font-size: 22px;
+}
+#login-box p{
+          margin: 0;
+          padding: 0;
+          font-weight: bold;
+}
+#login-box input{
+          width: 100%;
+          margin-bottom: 20px;
+}
+#login-box input[type="text"],input[type="password"]{
+          border: none;
+          border-bottom: 1px solid #fff;
+          background: transparent;
+          outline: none;
+          height: 40px;
+          color: #fff;
+          font-size: 16px;
+}
+.submit{
+          border: none;
+          outline: none;
+          height: 40px;
+          width: 100%;
+          color: #fff;
+          font-size: 18px;
+          border-radius: 20px;
+}
+.submit-color1{
+          background-color: green;     
+}
+.submit-color2{
+          margin-top: 5px;
+          background-color: red;     
+}
+.nav{
+          height: 50px;
+          background-color: rgb(55, 17, 160);  
+          border-radius: 30px;   
+}
+.btn{
+          margin-right: 10%;
+          width: 150px;
+          height: 50px;
+          background-color: rgb(55, 17, 160);
+          color: white;
+          border: 0;
+          border-radius: 30px;  
+}
+
+
+.btn:hover{
+          background-color: white;
+          color: black;
+}
+
+.about{
+          width: 320px;
+          height: 420px;
+          background: rgba(0, 0, 0, 0.5);
+          color: #fff;
+          top: 55%;
+          left: 50%;
+          position: absolute;
+          transform: translate(-50%,-50%);
+          box-sizing: border-box;
+          padding: 70px 30px;
+}
+.about p{
+          
+          font-weight: bold;
+}
+.flex-container{
+          display: flex;
+          margin: 10px;
+}
+.comment-section{
+          width: 98%;
+          height:auto;
+          background: rgba(0, 0, 0, 0.5);
+          color: #fff;
+          box-sizing: border-box;
+          padding: 70px 30px;
+          margin: 10px;
+}
+.comment-section input{
+          width: 100%;
+          margin-bottom: 20px;
+}
+.comment-section input[type="text"],input[type="password"]{
+          border: none;
+          border-bottom: 1px solid #fff;
+          background: transparent;
+          outline: none;
+          height: 40px;
+          color: #fff;
+          font-size: 16px;
+}
+.submit{
+          border: none;
+          outline: none;
+          height: 40px;
+          width: 80px;
+          background-color: greenyellow;
+          color: #000000;
+          font-size: 18px;
+          border-radius: 20px; 
+}
+.text{
+          visibility: hidden;
+          margin: 3px;
+}
+.text p{
+          padding: 10px;
+          border-bottom: 1px solid #fff;
+          border-top: 1px solid #fff; 
+          border-left: 1px solid #fff;
+          border-right: 3px solid #fff;
+}
+img {
+          width: 100%;
+}
